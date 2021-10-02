@@ -1,0 +1,13 @@
+{
+  "name": "workspace-b",
+  "version": "1.0.0",
+  "scripts": {
+    "demo": "ts-node ./src/hello.ts"
+  },
+  "dependencies": {
+    "workspace-a": "workspace:*"
+  },
+  "devDependencies": {
+    "ts-node": "10.2.1"
+  }
+}
